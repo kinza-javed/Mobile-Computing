@@ -1,0 +1,23 @@
+name: flutter_application_1
+description: A new Flutter project
+
+publish_to: 'none' # Remove this line if you want to publish to the Flutter repository.
+
+dependencies:
+  flutter:
+    sdk: flutter
+  uuid: ^3.0.5  # Add the uuid dependency here
+  flutter_lints: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+    #badges: ^2.0.3
+    #shared_preferences: ^2.2.2
+
+flutter:
+  uses-material-design: true
+
+# Add this environment section
+environment:
+  sdk: ">=3.6.0 <4.0.0"  # Make sure the version is compatible with your Flutter SDK
