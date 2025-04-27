@@ -16,6 +16,13 @@ import 'screens/manage_categories_page.dart';
 import 'screens/batch_update_products_page.dart';
 import 'screens/track_inventory_history_page.dart';
 import 'screens/delete_archive_products_page.dart';
+import 'screens/create_promotions_page.dart';
+import 'screens/discount_page.dart';
+import 'screens/free_shipping_page.dart';
+import 'screens/promo_codes_pages.dart';
+import 'screens/validity_page.dart';
+import 'screens/customer_review_page.dart';
+import 'screens/generate_reports_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -47,13 +54,19 @@ class MyApp extends StatelessWidget {
         '/viewOrders': (context) => const ViewOrdersPage(),
         '/updateProduct': (context) => const UpdateProductPage(),
         '/allProducts': (context) => const AllProductsPage(), // new route
-        '/manage_categories': (context) => ManageCategoriesPage(),
-      '/batch_update': (context) => BatchUpdatePage(),
-      '/track_inventory': (context) => TrackInventoryStreamPage(),
-      '/delete_archived': (context) => DeleteArchivedProductsPage(),
+        '/manage_categories': (context) => const ManageCategoriesPage(),
+        '/batch_update': (context) =>const  BatchUpdatePage(),
+        '/track_inventory': (context) => const TrackInventoryStreamPage(),
+        '/delete_archived': (context) => const DeleteArchivedProductsPage(),
+       '/createPromotions': (context) =>const  CreatePromotionsPage(), 
+        '/discount': (context) =>const  DiscountPage(),
+        '/freeShipping': (context) => const FreeShippingPage(),
+        '/validityPeriod': (context) => const ValidityPeriodPage(),
+        '/promoCodes': (context) => const PromoCodesPage(),
+        '/generatereports': (context) => const GenerateReportsPage(),  // Add this line
+    '/customerreviews': (context) => const CustomerReviewsPage(),  // Add this line
       },
     );
   }
 }
-
 
