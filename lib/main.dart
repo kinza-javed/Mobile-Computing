@@ -23,6 +23,10 @@ import 'screens/promo_codes_pages.dart';
 import 'screens/validity_page.dart';
 import 'screens/customer_review_page.dart';
 import 'screens/generate_reports_page.dart';
+import 'tracking_orders/admin_tracking_page.dart';
+import 'tracking_orders/track_order_page.dart';
+// import 'tracking_orders/tracking_page.dart';
+// import 'tracking_orders/tracking_service.dart';
 
 void main() {
   runApp(const MyApp());
@@ -65,8 +69,8 @@ class MyApp extends StatelessWidget {
         '/promoCodes': (context) => const PromoCodesPage(),
         '/generatereports': (context) => const GenerateReportsPage(),  // Add this line
     '/customerreviews': (context) => const CustomerReviewsPage(),  // Add this line
+        '/adminTracking': (context) => const AdminTrackingPage(),
       },
     );
   }
 }
-

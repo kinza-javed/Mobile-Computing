@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   intl: ^0.18.1
-  
+  shared_preferences: ^2.2.0
   uuid: ^3.0.6  # Add the uuid package here
 
 dev_dependencies:

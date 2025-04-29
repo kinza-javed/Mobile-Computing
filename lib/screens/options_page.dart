@@ -31,6 +31,7 @@ class OptionsPage extends StatelessWidget {
                   _buildOptionButton(context, 'Create Promotions', '/createPromotions'), // Fixed the casing here
                   _buildOptionButton(context, 'Generate Reports', '/generatereports'),
                   _buildOptionButton(context, 'View Customer Reviews', '/customerreviews'),
+                  _buildOptionButton(context, 'Online Tracking', '/adminTracking'),
                 ],
               ),
             ),
